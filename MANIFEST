@@ -1,0 +1,13 @@
+MANIFEST
+Makefile.PL
+README
+INSTALL
+lib/BW/Base.pm
+lib/BW/CGI.pm
+lib/BW/Common.pm
+lib/BW/Config.pm
+lib/BW/Constants.pm
+lib/BW/DB.pm
+lib/BW/Email.pm
+lib/BW/Include.pm
+lib/BW/Jumptable.pm
