@@ -13,7 +13,7 @@ use 5.008;
 
 use BW::Constants;
 
-our $VERSION = "1.1.1";
+our $VERSION = "1.2";
 
 #
 # Most of the methods in this module, including new() and _init(),
@@ -221,7 +221,7 @@ Copyright (c) 1995-2010 The BearHeart Group, LLC
 
 =head1 HISTORY
 
-    2010-02-15 bw -- 1.1.1  -- added t/all.t
+    2010-02-15 bw -- 1.2    -- added t/all.t
     2010-02-02 bw -- 1.1    -- first CPAN version - some cleanup and documenting
     2008-03-29 bw -- 1.0.1  -- minor bug fixes
     2007-12-01 bw -- 1.0    -- first public release
