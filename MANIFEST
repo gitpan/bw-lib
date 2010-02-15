@@ -11,3 +11,4 @@ lib/BW/DB.pm
 lib/BW/Email.pm
 lib/BW/Include.pm
 lib/BW/Jumptable.pm
+t/all.t
