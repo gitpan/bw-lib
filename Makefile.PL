@@ -1,5 +1,6 @@
 use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'              => 'bw-lib',
-    'VERSION_FROM'      => 'lib/BW/Base.pm', # finds $VERSION
+    'AUTHOR'            => 'Bill Weinman (http://bw.org/)',
+    'VERSION_FROM'      => 'lib/BW/Base.pm',
 );

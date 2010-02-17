@@ -8,7 +8,7 @@ use Test;
 use strict;
 use warnings;
 
-BEGIN { plan tests => 9 }
+BEGIN { plan tests => 8 }
 
 eval { require BW::Base; return 1; };
 ok( $@, '' );
@@ -23,9 +23,6 @@ eval { require BW::Config; return 1; };
 ok( $@, '' );
 
 eval { require BW::Constants; return 1; };
-ok( $@, '' );
-
-eval { require BW::DB; return 1; };
 ok( $@, '' );
 
 eval { require BW::Email; return 1; };

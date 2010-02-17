@@ -7,8 +7,8 @@ lib/BW/CGI.pm
 lib/BW/Common.pm
 lib/BW/Config.pm
 lib/BW/Constants.pm
-lib/BW/DB.pm
 lib/BW/Email.pm
 lib/BW/Include.pm
 lib/BW/Jumptable.pm
 t/all.t
+META.yml                                 Module meta-data (added by MakeMaker)

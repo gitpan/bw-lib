@@ -26,5 +26,22 @@ use (at least I find it so).
 I've submitted it to CPAN so that it can be easily installed for the
 various applications that I distribute that use it.
 
+
+This library provides: 
+
+    BW::Base - Base routines for BW::* modules
+    BW::Constants - Commonly used constants
+    BW::Common - Some common utility functions
+    BW::CGI - Simple OO CGI (this is NOT a CGI.pm plugin replacement!)
+    BW::Config - Support for simple configuration files
+    BW::Email - Support for sending email messages
+    BW::Include - Apache SSI-compatible Include file processing (Templates)
+    BW::Jumptable - Jump table support (for simple state machines)
+
+
+The emphasis here is on *simple*. All of these modules are intended to 
+do their job simply and effectively. Most of this was written independent
+of and often before the popular modules that they may duplicate in CPAN. 
+
 See INSTALL for installation instructions. 
 
