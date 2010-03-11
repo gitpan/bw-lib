@@ -14,7 +14,7 @@ use BW::Constants;
 use IO::File;
 use base qw( BW::Base );
 
-our $VERSION = "0.4";
+our $VERSION = "0.5";
 
 sub _init
 {
@@ -69,7 +69,7 @@ sub basename
     my $s = shift;
     $s = shift if ref($s);      # accept object or non-object calls
 
-    $s = ( split( m|/|, $s ) )[-1];
+    $s = ( split( m|[/\\]|, $s ) )[-1];
     return $s;
 }
 
@@ -140,6 +140,7 @@ Copyright (c) 1995-2010 The BearHeart Group, LLC
 
 =head1 HISTORY
 
+    2010-03-08 bw   -- updated basename to work with backslash for MS Win
     2010-02-02 bw   -- first CPAN release
     2009-12-22 bw   -- added readfile
     2009-11-25 bw   -- initial version.

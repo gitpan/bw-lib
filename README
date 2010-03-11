@@ -1,7 +1,7 @@
 BW-Lib by Bill Weinman
 http://bw.org/
 
-14 February 2010
+11 March 2010
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
@@ -30,6 +30,7 @@ various applications that I distribute that use it.
 This library provides: 
 
     BW::Base - Base routines for BW::* modules
+    BW::AddressCodes - US States and Country codes
     BW::Constants - Commonly used constants
     BW::Common - Some common utility functions
     BW::CGI - Simple OO CGI (this is NOT a CGI.pm plugin replacement!)
@@ -37,6 +38,8 @@ This library provides:
     BW::Email - Support for sending email messages
     BW::Include - Apache SSI-compatible Include file processing (Templates)
     BW::Jumptable - Jump table support (for simple state machines)
+    BW::XML::Out - Simple XML output
+    BW::XML::HTML - Small subset X/HTML output using BW::XML::Out
 
 
 The emphasis here is on *simple*. All of these modules are intended to 

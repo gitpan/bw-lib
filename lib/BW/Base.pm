@@ -4,7 +4,8 @@
 # by Bill Weinman - http://bw.org/
 # Copyright (c) 1995-2010 The BearHeart Group, LLC
 #
-# See POD for History
+# See HISTORY
+#
 
 package BW::Base;
 use strict;
@@ -13,7 +14,7 @@ use 5.008;
 
 use BW::Constants;
 
-our $VERSION = "1.3";
+our $VERSION = "1.4";
 
 #
 # Most of the methods in this module, including new() and _init(),

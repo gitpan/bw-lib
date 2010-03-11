@@ -8,9 +8,12 @@ use Test;
 use strict;
 use warnings;
 
-BEGIN { plan tests => 8 }
+BEGIN { plan tests => 11 }
 
 eval { require BW::Base; return 1; };
+ok( $@, '' );
+
+eval { require BW::AddressCodes; return 1; };
 ok( $@, '' );
 
 eval { require BW::CGI; return 1; };
@@ -32,6 +35,12 @@ eval { require BW::Include; return 1; };
 ok( $@, '' );
 
 eval { require BW::Jumptable; return 1; };
+ok( $@, '' );
+
+eval { require BW::XML::Out; return 1; };
+ok( $@, '' );
+
+eval { require BW::XML::HTML; return 1; };
 ok( $@, '' );
 
 exit 0;

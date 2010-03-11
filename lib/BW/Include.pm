@@ -19,7 +19,7 @@ use IO::Pipe;
 use BW::Constants;
 use base qw( BW::Base );
 
-our $VERSION = "1.0.1";
+our $VERSION = "1.0.2";
 
 sub _init
 {
@@ -320,7 +320,7 @@ directories from this base in your filenames. For example:
 That will use /home/you/htmlfiles/subdirectory/admin.html as the file to 
 be included. 
 
-=out
+=back
 
 =head1 FILE PROCESSING
 
@@ -346,6 +346,7 @@ Copyright (c) 1995-2010 The BearHeart Group, LLC
 
 =head1 HISTORY
 
+    2010-03-11 bw -- 1.0.2  -- fixed small POD typo
     2010-02-02 bw -- 1.0.1  -- first CPAN version - some cleanup and documenting
 
 =cut
